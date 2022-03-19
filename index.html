@@ -1,0 +1,102 @@
+
+   
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet"></link>
+
+    <title>Mitchell Melby Portfolio</title>
+    <style>
+      container {
+        background-color: blue;
+      }
+      header {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        background-color: blue;
+      }
+
+      aside {
+        display: flex;
+        flex: 1;
+        justify-content: left;
+        background-color: blue;
+      }
+
+      footer {
+      
+        display: flex;
+        background-color: var(--color-gray-600);
+        align-items: stretch;
+        flex: 1;
+        background-color: blue;
+
+      }
+      image {
+        position: absolute;
+      }
+      .image:hover {
+        transform: rotate(10deg);
+        transition: transform 600ms;
+      }
+      .container {
+        animation: fadeIn 2.5s;
+        
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      
+    </style>
+  </head>
+  <body class="container">
+    <header>
+      
+      <div class="mainHeader">
+        <h1>  Mitchell Melby </h1>
+        <p> Senior data analytics  student at Chapman University. From Suquamish, Washington. </p>
+        
+      </div>
+      
+        <img
+          class="image"
+          src="suitpic.jpeg"
+          alt=""
+        />
+      
+    </header>
+
+  <aside> 
+      <p class = "para"> Important links:  </p>
+ </aside>
+
+    <footer>
+      
+      
+      <div class = "linkstuff">
+          <a href = "https://github.com/melbymm/Assignment3DataStructures" class = "btn"> Syntax Checker </a>
+        <a href= "https://github.com/melbymm/CPSC393Final" class = "btn"> Car crash severity predictor</button>
+          <a href= "https://blogs.chapman.edu/gci/2021/05/11/improving-nurse-education-with-vr/" class = "btn"> GCI Project</button>
+
+          <a href= "https://linkedin.com/in/mitchell-melby-387135172/" class = "btn"> LinkedIn </button>
+    
+        
+        
+        </div>
+        
+            
+            
+        
+    </footer>
+  </body>
+</html>
